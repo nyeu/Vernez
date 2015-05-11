@@ -130,7 +130,6 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     [cell.imageCell sd_setImageWithURL:[NSURL URLWithString:imageFeed.smallImage]];
     
     return cell;
-    
 }
 
 -(UITableViewCell*) loadingCellAtIndexPath:(NSIndexPath*) indexPath{

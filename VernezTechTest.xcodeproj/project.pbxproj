@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201113DC5BEBB29073325576 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8D0EF6C882E537D3BA5AAF /* libPods.a */; };
 		4EE3308F1B00A52D00E77990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3308E1B00A52D00E77990 /* main.m */; };
 		4EE330921B00A52D00E77990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE330911B00A52D00E77990 /* AppDelegate.m */; };
 		4EE330951B00A52D00E77990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE330941B00A52D00E77990 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		4EE3309A1B00A52D00E77990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE330991B00A52D00E77990 /* Images.xcassets */; };
 		4EE3309D1B00A52D00E77990 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EE3309B1B00A52D00E77990 /* LaunchScreen.xib */; };
 		4EE330A91B00A52E00E77990 /* VernezTechTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE330A81B00A52E00E77990 /* VernezTechTestTests.m */; };
+		4EE330B81B00AAA200E77990 /* VZTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE330B71B00AAA200E77990 /* VZTAPIClient.m */; };
+		4EE330BB1B00AC2700E77990 /* VZTImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE330BA1B00AC2700E77990 /* VZTImagesTableViewCell.m */; };
+		4EE330BE1B00AD6C00E77990 /* VZTData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE330BD1B00AD6C00E77990 /* VZTData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01612620712C63CFBCE7654B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4EE330891B00A52D00E77990 /* VernezTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VernezTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE3308D1B00A52D00E77990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE3308E1B00A52D00E77990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,14 @@
 		4EE330A21B00A52D00E77990 /* VernezTechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VernezTechTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE330A71B00A52E00E77990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE330A81B00A52E00E77990 /* VernezTechTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VernezTechTestTests.m; sourceTree = "<group>"; };
+		4EE330B61B00AAA200E77990 /* VZTAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZTAPIClient.h; sourceTree = "<group>"; };
+		4EE330B71B00AAA200E77990 /* VZTAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZTAPIClient.m; sourceTree = "<group>"; };
+		4EE330B91B00AC2700E77990 /* VZTImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZTImagesTableViewCell.h; sourceTree = "<group>"; };
+		4EE330BA1B00AC2700E77990 /* VZTImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZTImagesTableViewCell.m; sourceTree = "<group>"; };
+		4EE330BC1B00AD6C00E77990 /* VZTData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZTData.h; sourceTree = "<group>"; };
+		4EE330BD1B00AD6C00E77990 /* VZTData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZTData.m; sourceTree = "<group>"; };
+		5FCC8B44F03797DFFDABB5D7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8D0EF6C882E537D3BA5AAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201113DC5BEBB29073325576 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,8 @@
 				4EE3308B1B00A52D00E77990 /* VernezTechTest */,
 				4EE330A51B00A52D00E77990 /* VernezTechTestTests */,
 				4EE3308A1B00A52D00E77990 /* Products */,
+				C1589C2D1DBD4DF8EC0EDFE2 /* Pods */,
+				CF113F380D087AC8517F3334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +97,12 @@
 		4EE3308B1B00A52D00E77990 /* VernezTechTest */ = {
 			isa = PBXGroup;
 			children = (
+				4EE330B41B00A60100E77990 /* Networking */,
+				4EE330B31B00A5FC00E77990 /* Models */,
+				4EE330B21B00A5F300E77990 /* Cells */,
+				4EE330B51B00A60600E77990 /* Controllers */,
 				4EE330901B00A52D00E77990 /* AppDelegate.h */,
 				4EE330911B00A52D00E77990 /* AppDelegate.m */,
-				4EE330931B00A52D00E77990 /* ViewController.h */,
-				4EE330941B00A52D00E77990 /* ViewController.m */,
 				4EE330961B00A52D00E77990 /* Main.storyboard */,
 				4EE330991B00A52D00E77990 /* Images.xcassets */,
 				4EE3309B1B00A52D00E77990 /* LaunchScreen.xib */,
@@ -119,6 +137,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4EE330B21B00A5F300E77990 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4EE330B91B00AC2700E77990 /* VZTImagesTableViewCell.h */,
+				4EE330BA1B00AC2700E77990 /* VZTImagesTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		4EE330B31B00A5FC00E77990 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EE330BC1B00AD6C00E77990 /* VZTData.h */,
+				4EE330BD1B00AD6C00E77990 /* VZTData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4EE330B41B00A60100E77990 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4EE330B61B00AAA200E77990 /* VZTAPIClient.h */,
+				4EE330B71B00AAA200E77990 /* VZTAPIClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		4EE330B51B00A60600E77990 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EE330931B00A52D00E77990 /* ViewController.h */,
+				4EE330941B00A52D00E77990 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C1589C2D1DBD4DF8EC0EDFE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC8B44F03797DFFDABB5D7 /* Pods.debug.xcconfig */,
+				01612620712C63CFBCE7654B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF113F380D087AC8517F3334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D0EF6C882E537D3BA5AAF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE330AC1B00A52E00E77990 /* Build configuration list for PBXNativeTarget "VernezTechTest" */;
 			buildPhases = (
+				C7448482975B9CF869741963 /* Check Pods Manifest.lock */,
 				4EE330851B00A52D00E77990 /* Sources */,
 				4EE330861B00A52D00E77990 /* Frameworks */,
 				4EE330871B00A52D00E77990 /* Resources */,
+				D6E128778B97760F7C5004EB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +236,7 @@
 		4EE330811B00A52D00E77990 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VZT;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Joan Cardona";
 				TargetAttributes = {
@@ -214,6 +288,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C7448482975B9CF869741963 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E128778B97760F7C5004EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EE330851B00A52D00E77990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,6 +328,9 @@
 			files = (
 				4EE330951B00A52D00E77990 /* ViewController.m in Sources */,
 				4EE330921B00A52D00E77990 /* AppDelegate.m in Sources */,
+				4EE330BE1B00AD6C00E77990 /* VZTData.m in Sources */,
+				4EE330B81B00AAA200E77990 /* VZTAPIClient.m in Sources */,
+				4EE330BB1B00AC2700E77990 /* VZTImagesTableViewCell.m in Sources */,
 				4EE3308F1B00A52D00E77990 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +451,7 @@
 		};
 		4EE330AD1B00A52E00E77990 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCC8B44F03797DFFDABB5D7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VernezTechTest/Info.plist;
@@ -351,6 +462,7 @@
 		};
 		4EE330AE1B00A52E00E77990 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01612620712C63CFBCE7654B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VernezTechTest/Info.plist;
@@ -412,6 +524,7 @@
 				4EE330AE1B00A52E00E77990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE330AF1B00A52E00E77990 /* Build configuration list for PBXNativeTarget "VernezTechTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +533,7 @@
 				4EE330B11B00A52E00E77990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
